@@ -79,3 +79,4 @@ for l,inde in zip(f2,range(len(puncuation_count))):
 
 # print q
 csvfile.close()
+print('non sarcasm gen emojis done')

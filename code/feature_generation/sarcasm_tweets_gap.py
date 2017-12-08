@@ -9,4 +9,5 @@ for l in fin:
 	fout.write(l)
 	fout.write('\n')
 fout.close()
+print('sarcasm gen tweets gap done')
 

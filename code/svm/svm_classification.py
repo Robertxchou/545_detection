@@ -3,10 +3,13 @@
 # Input should in the proper format as specified by the libsvm library
 
 import os
+import sys
 curr_dir = os.getcwd()
-os.chdir(str(curr_dir) + '/libsvm-3.21/python')
-from svmutil import *
+#os.chdir(str(curr_dir) + '/libsvm-3.21/python')
+sys.path.append(str(curr_dir) + '/libsvm-3.21/python')
+
 from svm import *
+from svmutil import *
 y, x = svm_read_problem(str(curr_dir)+'/../../data/combined_libsvm_append_1.txt')
 m = svm_train(y, x, '-c 4 -t 2')
 p_label, p_acc, p_val = svm_predict(y, x, m)

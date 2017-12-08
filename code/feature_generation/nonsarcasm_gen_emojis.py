@@ -30,3 +30,4 @@ with open('../../data/nonsarcasm_emoji.csv','w') as csvfile:
         x.writerow([count[i],laughexp[i]])
 
 csvfile.close()
+print('nonsarcasm_gen_emojis_done')
