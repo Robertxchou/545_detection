@@ -18,6 +18,7 @@ ENV/
 .DS_Store
 .AppleDouble
 .LSOverride
+.xml
 
 
 .gitignore
