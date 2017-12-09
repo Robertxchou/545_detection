@@ -1,6 +1,7 @@
 name: 545venv
 channels:
 - conda-forge
+- ioos
 - anaconda-fusion
 - defaults
 dependencies:
@@ -99,6 +100,8 @@ dependencies:
 - widgetsnbextension=1.2.6=py27_0
 - xlrd=1.0.0=py27_0
 - zlib=1.2.8=3
+- libspatialindex=1.8.5=0
+- rtree=0.8.2=py27_0
 - pip:
   - backports-abc==0.5
   - backports.shutil-get-terminal-size==1.0.0
